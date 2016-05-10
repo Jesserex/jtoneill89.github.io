@@ -42,9 +42,9 @@
     margin: 0 auto;
   }
   p#desc-sec {
-    padding: 10px;
-    background-color: rgba(9,9,9,.05);
-    border: 1px dotted;
+    padding: 15px;
+    background-color: rgba(9,9,9,.1);
+    border: 1px solid;
     box-shadow: 5px 5px rgba(7,7,7,.8);
   }
   #logo {
@@ -63,5 +63,10 @@
   #slogan {
     font-weight: 100;
     font-size: 1.25em;
+  }
+  @media screen and (max-width: 640px) {
+    p {
+      width: 80%;
+    }
   }
 </style>
