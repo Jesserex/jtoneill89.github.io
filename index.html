@@ -12,10 +12,10 @@
     <body>
       <section>
         <article>
-          <header id="logo-sec">
+          <header>
           <img id="logo" src="/ODC_logo.png" alt="O'Neill Design &amp; Co">
           </header>
-          <h1 class="tk-refrigerator-deluxe">Design Is Our Craft,<br><span id="slogan" class="tk-refrigerator-deluxe">Let Us Help You With Yours.
+          <h1 class="tk-refrigerator-deluxe">Design Is Our Craft,<br><span class="tk-refrigerator-deluxe">Let Us Help You With Yours.
           </span></h1>
           <p class="tk-magneta">ONeill Design &amp; Co was founded out of a desire to see great design everywhere we look.
              We believe good design enhances the quality of life for everyone. We are dedicated to helping you communicate
@@ -29,6 +29,7 @@
       </section>
   </body>
 </html>
+
 <style>
   body {
     font-size: 16px;
@@ -55,8 +56,7 @@
     font-weight: normal;
     letter-spacing: .05em;
   }
-
-  #logo {
+  img {
     width: 300px;
     height: auto;
   }
@@ -64,18 +64,20 @@
     font-weight: bold;
     font-size: 2em;
     text-transform: uppercase;
-
   }
   .tk-magneta {
     font-weight: 300;
   }
-  #slogan {
+  span {
     font-weight: 100;
     font-size: 1.25em;
   }
   @media screen and (max-width: 640px) {
     p {
       width: 80%;
+    }
+    span {
+      font-size: 1em;
     }
   }
 </style>
